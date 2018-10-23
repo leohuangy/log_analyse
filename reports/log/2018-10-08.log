@@ -1,0 +1,108 @@
+2018-10-08 10:01:16,122 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-08 10:01:16,162 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-08 10:01:16,193 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]
+2018-10-08 10:06:45,604 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-08 10:06:45,644 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-08 10:06:45,685 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]
+2018-10-08 10:08:38,880 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-08 10:08:38,928 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-08 10:08:38,966 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]
+2018-10-08 10:13:59,203 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-08 10:13:59,246 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-08 10:13:59,285 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]
+2018-10-08 10:14:57,141 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-08 10:14:57,187 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-08 10:14:57,226 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]
+2018-10-08 10:16:00,510 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-08 10:16:00,557 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-08 10:16:00,589 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]

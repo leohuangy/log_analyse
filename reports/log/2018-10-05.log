@@ -1,0 +1,288 @@
+2018-10-05 17:30:26,776 - root - DEBUG -         date          time type  ...        act1   act2   act3
+3608   01-04  07:19:31.241    I  ...    animator    set  START
+3707   01-04  07:19:31.275    I  ...    animator  START    ---
+3801   01-04  07:19:31.308    I  ...    animator    END    ---
+3803   01-04  07:19:31.325    I  ...    animator    set    END
+7870   01-04  07:20:02.694    I  ...    animator    set  START
+7887   01-04  07:20:02.734    I  ...    animator  START    ---
+7891   01-04  07:20:02.768    I  ...    animator    END    ---
+7893   01-04  07:20:02.784    I  ...    animator    set    END
+12402  01-04  07:21:53.617    I  ...    animator    set  START
+12416  01-04  07:21:53.656    I  ...    animator  START    ---
+12420  01-04  07:21:53.689    I  ...    animator    END    ---
+12422  01-04  07:21:53.706    I  ...    animator    set    END
+
+[12 rows x 7 columns]
+2018-10-05 17:36:12,988 - root - DEBUG -                time                      act0      act1   act2
+3608   07:19:31.241  CAM_RoundedThumbnailVie:  animator    set
+3707   07:19:31.275  CAM_RoundedThumbnailVie:  animator  START
+3801   07:19:31.308  CAM_RoundedThumbnailVie:  animator    END
+3803   07:19:31.325  CAM_RoundedThumbnailVie:  animator    set
+7870   07:20:02.694  CAM_RoundedThumbnailVie:  animator    set
+7887   07:20:02.734  CAM_RoundedThumbnailVie:  animator  START
+7891   07:20:02.768  CAM_RoundedThumbnailVie:  animator    END
+7893   07:20:02.784  CAM_RoundedThumbnailVie:  animator    set
+12402  07:21:53.617  CAM_RoundedThumbnailVie:  animator    set
+12416  07:21:53.656  CAM_RoundedThumbnailVie:  animator  START
+12420  07:21:53.689  CAM_RoundedThumbnailVie:  animator    END
+12422  07:21:53.706  CAM_RoundedThumbnailVie:  animator    set
+2018-10-05 17:36:33,164 - root - DEBUG -                time                      act0      act1   act2
+3608   07:19:31.241  CAM_RoundedThumbnailVie:  animator    set
+3707   07:19:31.275  CAM_RoundedThumbnailVie:  animator  START
+3801   07:19:31.308  CAM_RoundedThumbnailVie:  animator    END
+3803   07:19:31.325  CAM_RoundedThumbnailVie:  animator    set
+7870   07:20:02.694  CAM_RoundedThumbnailVie:  animator    set
+7887   07:20:02.734  CAM_RoundedThumbnailVie:  animator  START
+7891   07:20:02.768  CAM_RoundedThumbnailVie:  animator    END
+7893   07:20:02.784  CAM_RoundedThumbnailVie:  animator    set
+12402  07:21:53.617  CAM_RoundedThumbnailVie:  animator    set
+12416  07:21:53.656  CAM_RoundedThumbnailVie:  animator  START
+12420  07:21:53.689  CAM_RoundedThumbnailVie:  animator    END
+12422  07:21:53.706  CAM_RoundedThumbnailVie:  animator    set
+2018-10-05 17:37:34,495 - root - DEBUG -                time                      act0   act2   act3
+3608   07:19:31.241  CAM_RoundedThumbnailVie:    set  START
+3707   07:19:31.275  CAM_RoundedThumbnailVie:  START    ---
+3801   07:19:31.308  CAM_RoundedThumbnailVie:    END    ---
+3803   07:19:31.325  CAM_RoundedThumbnailVie:    set    END
+7870   07:20:02.694  CAM_RoundedThumbnailVie:    set  START
+7887   07:20:02.734  CAM_RoundedThumbnailVie:  START    ---
+7891   07:20:02.768  CAM_RoundedThumbnailVie:    END    ---
+7893   07:20:02.784  CAM_RoundedThumbnailVie:    set    END
+12402  07:21:53.617  CAM_RoundedThumbnailVie:    set  START
+12416  07:21:53.656  CAM_RoundedThumbnailVie:  START    ---
+12420  07:21:53.689  CAM_RoundedThumbnailVie:    END    ---
+12422  07:21:53.706  CAM_RoundedThumbnailVie:    set    END
+2018-10-05 17:39:19,680 - root - DEBUG -         date          time       ...                       act2             act3
+2302   01-04  07:19:30.529       ...               onNewIntent:         Activity
+2303   01-04  07:19:30.529       ...                     Action                =
+2304   01-04  07:19:30.532       ...               onNewIntent:         Activity
+2305   01-04  07:19:30.533       ...                 onRestart:         Activity
+2306   01-04  07:19:30.533       ...                 onRestart:         Activity
+2312   01-04  07:19:30.573       ...                   onStart:         Activity
+2317   01-04  07:19:30.576       ...                   onStart:         Activity
+2318   01-04  07:19:30.576       ...                  onResume:         Activity
+2319   01-04  07:19:30.577       ...         isKeyguardLocked()                =
+2320   01-04  07:19:30.578       ...                        -->  onResumeTasks()
+2514   01-04  07:19:30.775       ...                  onResume:         Activity
+5180   01-04  07:19:36.014       ...                   onPause:         Activity
+5181   01-04  07:19:36.014       ...                        -->   onPauseTasks()
+5855   01-04  07:19:36.367       ...                   onPause:         Activity
+5955   01-04  07:19:36.765       ...                    onStop:         Activity
+5959   01-04  07:19:36.765       ...                    onStop:         Activity
+5960   01-04  07:19:36.766       ...                 onDestroy:         Activity
+5978   01-04  07:19:36.786       ...                 onDestroy:         Activity
+6282   01-04  07:20:02.110       ...                  onCreate:         Activity
+6537   01-04  07:20:02.242       ...                  onCreate:         Activity
+6576   01-04  07:20:02.257       ...                   onStart:         Activity
+6581   01-04  07:20:02.258       ...                   onStart:         Activity
+6582   01-04  07:20:02.259       ...                  onResume:         Activity
+6583   01-04  07:20:02.260       ...         isKeyguardLocked()                =
+6584   01-04  07:20:02.261       ...                        -->  onResumeTasks()
+6699   01-04  07:20:02.313       ...                  onResume:         Activity
+9211   01-04  07:20:06.691       ...                   onPause:         Activity
+9212   01-04  07:20:06.692       ...                        -->   onPauseTasks()
+9892   01-04  07:20:07.035       ...                   onPause:         Activity
+9997   01-04  07:20:07.471       ...                    onStop:         Activity
+10001  01-04  07:20:07.472       ...                    onStop:         Activity
+10002  01-04  07:20:07.472       ...                 onDestroy:         Activity
+10021  01-04  07:20:07.490       ...                 onDestroy:         Activity
+10807  01-04  07:21:53.013       ...                  onCreate:         Activity
+10990  01-04  07:21:53.133       ...                  onCreate:         Activity
+11003  01-04  07:21:53.136       ...                   onStart:         Activity
+11013  01-04  07:21:53.136       ...                   onStart:         Activity
+11027  01-04  07:21:53.138       ...                  onResume:         Activity
+11032  01-04  07:21:53.138       ...         isKeyguardLocked()                =
+11033  01-04  07:21:53.139       ...                        -->  onResumeTasks()
+11223  01-04  07:21:53.200       ...                  onResume:         Activity
+13558  01-04  07:21:56.904       ...                   onPause:         Activity
+13559  01-04  07:21:56.904       ...                        -->   onPauseTasks()
+14237  01-04  07:21:57.247       ...                   onPause:         Activity
+14345  01-04  07:21:57.712       ...                    onStop:         Activity
+14349  01-04  07:21:57.713       ...                    onStop:         Activity
+14350  01-04  07:21:57.713       ...                 onDestroy:         Activity
+14368  01-04  07:21:57.733       ...                 onDestroy:         Activity
+
+[48 rows x 7 columns]
+2018-10-05 17:39:19,793 - root - DEBUG -         date          time type  ...        act1   act2   act3
+3608   01-04  07:19:31.241    I  ...    animator    set  START
+3707   01-04  07:19:31.275    I  ...    animator  START    ---
+3801   01-04  07:19:31.308    I  ...    animator    END    ---
+3803   01-04  07:19:31.325    I  ...    animator    set    END
+7870   01-04  07:20:02.694    I  ...    animator    set  START
+7887   01-04  07:20:02.734    I  ...    animator  START    ---
+7891   01-04  07:20:02.768    I  ...    animator    END    ---
+7893   01-04  07:20:02.784    I  ...    animator    set    END
+12402  01-04  07:21:53.617    I  ...    animator    set  START
+12416  01-04  07:21:53.656    I  ...    animator  START    ---
+12420  01-04  07:21:53.689    I  ...    animator    END    ---
+12422  01-04  07:21:53.706    I  ...    animator    set    END
+
+[12 rows x 7 columns]
+2018-10-05 17:44:54,522 - root - DEBUG -         date          time       ...                       act2             act3
+2302   01-04  07:19:30.529       ...               onNewIntent:         Activity
+2303   01-04  07:19:30.529       ...                     Action                =
+2304   01-04  07:19:30.532       ...               onNewIntent:         Activity
+2305   01-04  07:19:30.533       ...                 onRestart:         Activity
+2306   01-04  07:19:30.533       ...                 onRestart:         Activity
+2312   01-04  07:19:30.573       ...                   onStart:         Activity
+2317   01-04  07:19:30.576       ...                   onStart:         Activity
+2318   01-04  07:19:30.576       ...                  onResume:         Activity
+2319   01-04  07:19:30.577       ...         isKeyguardLocked()                =
+2320   01-04  07:19:30.578       ...                        -->  onResumeTasks()
+2514   01-04  07:19:30.775       ...                  onResume:         Activity
+5180   01-04  07:19:36.014       ...                   onPause:         Activity
+5181   01-04  07:19:36.014       ...                        -->   onPauseTasks()
+5855   01-04  07:19:36.367       ...                   onPause:         Activity
+5955   01-04  07:19:36.765       ...                    onStop:         Activity
+5959   01-04  07:19:36.765       ...                    onStop:         Activity
+5960   01-04  07:19:36.766       ...                 onDestroy:         Activity
+5978   01-04  07:19:36.786       ...                 onDestroy:         Activity
+6282   01-04  07:20:02.110       ...                  onCreate:         Activity
+6537   01-04  07:20:02.242       ...                  onCreate:         Activity
+6576   01-04  07:20:02.257       ...                   onStart:         Activity
+6581   01-04  07:20:02.258       ...                   onStart:         Activity
+6582   01-04  07:20:02.259       ...                  onResume:         Activity
+6583   01-04  07:20:02.260       ...         isKeyguardLocked()                =
+6584   01-04  07:20:02.261       ...                        -->  onResumeTasks()
+6699   01-04  07:20:02.313       ...                  onResume:         Activity
+9211   01-04  07:20:06.691       ...                   onPause:         Activity
+9212   01-04  07:20:06.692       ...                        -->   onPauseTasks()
+9892   01-04  07:20:07.035       ...                   onPause:         Activity
+9997   01-04  07:20:07.471       ...                    onStop:         Activity
+10001  01-04  07:20:07.472       ...                    onStop:         Activity
+10002  01-04  07:20:07.472       ...                 onDestroy:         Activity
+10021  01-04  07:20:07.490       ...                 onDestroy:         Activity
+10807  01-04  07:21:53.013       ...                  onCreate:         Activity
+10990  01-04  07:21:53.133       ...                  onCreate:         Activity
+11003  01-04  07:21:53.136       ...                   onStart:         Activity
+11013  01-04  07:21:53.136       ...                   onStart:         Activity
+11027  01-04  07:21:53.138       ...                  onResume:         Activity
+11032  01-04  07:21:53.138       ...         isKeyguardLocked()                =
+11033  01-04  07:21:53.139       ...                        -->  onResumeTasks()
+11223  01-04  07:21:53.200       ...                  onResume:         Activity
+13558  01-04  07:21:56.904       ...                   onPause:         Activity
+13559  01-04  07:21:56.904       ...                        -->   onPauseTasks()
+14237  01-04  07:21:57.247       ...                   onPause:         Activity
+14345  01-04  07:21:57.712       ...                    onStop:         Activity
+14349  01-04  07:21:57.713       ...                    onStop:         Activity
+14350  01-04  07:21:57.713       ...                 onDestroy:         Activity
+14368  01-04  07:21:57.733       ...                 onDestroy:         Activity
+
+[48 rows x 7 columns]
+2018-10-05 17:44:54,633 - root - DEBUG -         date          time type  ...        act1   act2   act3
+3608   01-04  07:19:31.241    I  ...    animator    set  START
+3707   01-04  07:19:31.275    I  ...    animator  START    ---
+3801   01-04  07:19:31.308    I  ...    animator    END    ---
+3803   01-04  07:19:31.325    I  ...    animator    set    END
+7870   01-04  07:20:02.694    I  ...    animator    set  START
+7887   01-04  07:20:02.734    I  ...    animator  START    ---
+7891   01-04  07:20:02.768    I  ...    animator    END    ---
+7893   01-04  07:20:02.784    I  ...    animator    set    END
+12402  01-04  07:21:53.617    I  ...    animator    set  START
+12416  01-04  07:21:53.656    I  ...    animator  START    ---
+12420  01-04  07:21:53.689    I  ...    animator    END    ---
+12422  01-04  07:21:53.706    I  ...    animator    set    END
+
+[12 rows x 7 columns]
+2018-10-05 17:59:22,242 - root - DEBUG -         date          time       ...                       act2             act3
+2302   01-04  07:19:30.529       ...               onNewIntent:         Activity
+2303   01-04  07:19:30.529       ...                     Action                =
+2304   01-04  07:19:30.532       ...               onNewIntent:         Activity
+2305   01-04  07:19:30.533       ...                 onRestart:         Activity
+2306   01-04  07:19:30.533       ...                 onRestart:         Activity
+2312   01-04  07:19:30.573       ...                   onStart:         Activity
+2317   01-04  07:19:30.576       ...                   onStart:         Activity
+2318   01-04  07:19:30.576       ...                  onResume:         Activity
+2319   01-04  07:19:30.577       ...         isKeyguardLocked()                =
+2320   01-04  07:19:30.578       ...                        -->  onResumeTasks()
+2514   01-04  07:19:30.775       ...                  onResume:         Activity
+5180   01-04  07:19:36.014       ...                   onPause:         Activity
+5181   01-04  07:19:36.014       ...                        -->   onPauseTasks()
+5855   01-04  07:19:36.367       ...                   onPause:         Activity
+5955   01-04  07:19:36.765       ...                    onStop:         Activity
+5959   01-04  07:19:36.765       ...                    onStop:         Activity
+5960   01-04  07:19:36.766       ...                 onDestroy:         Activity
+5978   01-04  07:19:36.786       ...                 onDestroy:         Activity
+6282   01-04  07:20:02.110       ...                  onCreate:         Activity
+6537   01-04  07:20:02.242       ...                  onCreate:         Activity
+6576   01-04  07:20:02.257       ...                   onStart:         Activity
+6581   01-04  07:20:02.258       ...                   onStart:         Activity
+6582   01-04  07:20:02.259       ...                  onResume:         Activity
+6583   01-04  07:20:02.260       ...         isKeyguardLocked()                =
+6584   01-04  07:20:02.261       ...                        -->  onResumeTasks()
+6699   01-04  07:20:02.313       ...                  onResume:         Activity
+9211   01-04  07:20:06.691       ...                   onPause:         Activity
+9212   01-04  07:20:06.692       ...                        -->   onPauseTasks()
+9892   01-04  07:20:07.035       ...                   onPause:         Activity
+9997   01-04  07:20:07.471       ...                    onStop:         Activity
+10001  01-04  07:20:07.472       ...                    onStop:         Activity
+10002  01-04  07:20:07.472       ...                 onDestroy:         Activity
+10021  01-04  07:20:07.490       ...                 onDestroy:         Activity
+10807  01-04  07:21:53.013       ...                  onCreate:         Activity
+10990  01-04  07:21:53.133       ...                  onCreate:         Activity
+11003  01-04  07:21:53.136       ...                   onStart:         Activity
+11013  01-04  07:21:53.136       ...                   onStart:         Activity
+11027  01-04  07:21:53.138       ...                  onResume:         Activity
+11032  01-04  07:21:53.138       ...         isKeyguardLocked()                =
+11033  01-04  07:21:53.139       ...                        -->  onResumeTasks()
+11223  01-04  07:21:53.200       ...                  onResume:         Activity
+13558  01-04  07:21:56.904       ...                   onPause:         Activity
+13559  01-04  07:21:56.904       ...                        -->   onPauseTasks()
+14237  01-04  07:21:57.247       ...                   onPause:         Activity
+14345  01-04  07:21:57.712       ...                    onStop:         Activity
+14349  01-04  07:21:57.713       ...                    onStop:         Activity
+14350  01-04  07:21:57.713       ...                 onDestroy:         Activity
+14368  01-04  07:21:57.733       ...                 onDestroy:         Activity
+
+[48 rows x 7 columns]
+2018-10-05 17:59:22,341 - root - DEBUG -         date          time type  ...        act1   act2   act3
+3608   01-04  07:19:31.241    I  ...    animator    set  START
+3707   01-04  07:19:31.275    I  ...    animator  START    ---
+3801   01-04  07:19:31.308    I  ...    animator    END    ---
+3803   01-04  07:19:31.325    I  ...    animator    set    END
+7870   01-04  07:20:02.694    I  ...    animator    set  START
+7887   01-04  07:20:02.734    I  ...    animator  START    ---
+7891   01-04  07:20:02.768    I  ...    animator    END    ---
+7893   01-04  07:20:02.784    I  ...    animator    set    END
+12402  01-04  07:21:53.617    I  ...    animator    set  START
+12416  01-04  07:21:53.656    I  ...    animator  START    ---
+12420  01-04  07:21:53.689    I  ...    animator    END    ---
+12422  01-04  07:21:53.706    I  ...    animator    set    END
+
+[12 rows x 7 columns]
+2018-10-05 23:54:31,738 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-05 23:54:31,787 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-05 23:54:31,829 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]
+2018-10-05 23:55:34,869 - root - DEBUG -         date          time type    ...      act1      act2      act3
+2312   01-04  07:19:30.573    V    ...     START  onStart:  Activity
+6576   01-04  07:20:02.257    V    ...     START  onStart:  Activity
+11003  01-04  07:21:53.136    V    ...     START  onStart:  Activity
+
+[3 rows x 7 columns]
+2018-10-05 23:55:34,908 - root - DEBUG -         date          time type ...       act1 act2 act3
+3801   01-04  07:19:31.308    I ...   animator  END  ---
+7891   01-04  07:20:02.768    I ...   animator  END  ---
+12420  01-04  07:21:53.689    I ...   animator  END  ---
+
+[3 rows x 7 columns]
+2018-10-05 23:55:34,941 - root - DEBUG -         date          time type ...       act1 act2 act3
+3803   01-04  07:19:31.325    I ...   animator  set  END
+7893   01-04  07:20:02.784    I ...   animator  set  END
+12422  01-04  07:21:53.706    I ...   animator  set  END
+
+[3 rows x 7 columns]
