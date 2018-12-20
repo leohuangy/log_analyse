@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f05c47b-c949-4915-b1b3-d88a5b80c0e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/log_analyse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/log_analyse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_cameralog.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_cameralog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/common/export.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/common/export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/11/test_cameralog.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testcase/test_cameralog.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/11/test_cameralog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="152" column="8" lean-forward="true" selection-start-line="152" selection-start-column="10" selection-end-line="154" selection-end-column="23" />
-              <folding>
-                <element signature="e#213#228#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="377">
+              <caret line="250" column="28" selection-start-line="250" selection-start-column="28" selection-end-line="250" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/common/export.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/20181211/dcqiedv.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="7218" column="58" lean-forward="true" selection-start-line="7218" selection-start-column="58" selection-end-line="7218" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -53,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="46">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#252#267#0" expanded="true" />
               </folding>
@@ -83,6 +96,14 @@
       <find>CAM_ShutterButton</find>
       <find>CAM_RoundedThumbnailVie</find>
       <find>06:13:15.730</find>
+      <find>ModeTransView</find>
+      <find>CAM_ModeTransView: hideModeCover</find>
+      <find>CAM_CameraActivity</find>
+      <find>CAM_CameraActivity Drea:</find>
+      <find>CAM_CameraActivity Drea:</find>
+      <find>CAM_CameraActivity Drea: switchMode</find>
+      <find>CAM_ModeTransView: hideImageCover</find>
+      <find>CAM_ModeTransView</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,7 +121,6 @@
         <option value="$PROJECT_DIR$/testcase/test_camera.py" />
         <option value="$PROJECT_DIR$/libs/common/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/libs/common/datefunc.py" />
-        <option value="$PROJECT_DIR$/libs/common/export.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/hzpinyin.txt" />
         <option value="$PROJECT_DIR$/hzpinyin_new.txt" />
@@ -108,6 +128,9 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/testcase/test_cameralog.py" />
+        <option value="$PROJECT_DIR$/testcase/test_cameralog1.py" />
+        <option value="$PROJECT_DIR$/testcase/11/test_cameralog.py" />
+        <option value="$PROJECT_DIR$/libs/common/export.py" />
       </list>
     </option>
   </component>
@@ -156,6 +179,12 @@
             <path>
               <item name="log_analyse" type="b2602c69:ProjectViewProjectNode" />
               <item name="log_analyse" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="20181211" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="log_analyse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log_analyse" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -168,6 +197,12 @@
               <item name="log_analyse" type="b2602c69:ProjectViewProjectNode" />
               <item name="log_analyse" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="log_analyse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log_analyse" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="log_analyse" type="b2602c69:ProjectViewProjectNode" />
@@ -193,17 +228,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcase" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/libs/common" />
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcase/11" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/testcase" />
       <recent name="$PROJECT_DIR$/testcase/case1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/libs/common" />
-      <recent name="$PROJECT_DIR$/testcase" />
-      <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runlog">
+  <component name="RunManager" selected="Python.runlog1">
     <configuration name="runlog" type="PythonConfigurationType" factoryName="Python">
       <module name="log_analyse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +270,28 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runlog1" type="PythonConfigurationType" factoryName="Python">
+      <module name="log_analyse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda2/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="11" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -265,6 +323,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.runlog" />
+      <item itemvalue="Python.runlog1" />
       <item itemvalue="Python.testcamera" />
     </list>
   </component>
@@ -388,16 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/common/export.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#110#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/reqidong/main.log" />
     <entry file="file://$PROJECT_DIR$/reports/log/2018-10-23.log" />
     <entry file="file://$PROJECT_DIR$/testcase/__init__.py">
@@ -453,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="46">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#252#267#0" expanded="true" />
           </folding>
@@ -463,11 +512,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_cameralog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="152" column="8" lean-forward="true" selection-start-line="152" selection-start-column="10" selection-end-line="154" selection-end-column="23" />
+        <state relative-caret-position="-1207">
+          <caret line="7" column="28" selection-start-line="4" selection-start-column="3" selection-end-line="11" />
           <folding>
             <element signature="e#213#228#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/20181211/dcqiedv.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="7218" column="58" lean-forward="true" selection-start-line="7218" selection-start-column="58" selection-end-line="7218" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/11/test_cameralog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="250" column="28" selection-start-line="250" selection-start-column="28" selection-end-line="250" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/common/export.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
         </state>
       </provider>
     </entry>

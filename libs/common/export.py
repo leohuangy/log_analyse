@@ -21,7 +21,7 @@ class Export:
             report_path = os.path.join(globalparam.report_path, ('{0}.' + file_type).format(time.strftime('%Y-%m-%d')))
         else:
             report_path = os.path.join(globalparam.report_path,
-                                      ('{0}' + '-' + reportname + '.' + file_type).format(time.strftime('%Y-%m-%d')))
+                                      ('{0}' + '-' + report_name + '.' + file_type).format(time.strftime('%Y-%m-%d')))
 
         self.report_name = report_path
 
