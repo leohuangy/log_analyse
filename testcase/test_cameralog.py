@@ -21,13 +21,15 @@ from libs.common.export import Export
 
 
 class TestCameraLog(unittest.TestCase):
+    data_list = pd.DataFrame(columns=["date", "time", "type", "act0", "act1", "act2", "act3"])
+
     """照相机自动化测试--日志分析"""
 
     @classmethod
     def setUpClass(cls):
         print " 用例集合开始执行 \n"
         # 数据日志文件存放路径
-        cls.logdir = os.path.join(globalparam.data_path, '20181023')
+        cls.logdir = os.path.join(globalparam.data_path, '20181211')
         # 存放统计所需的日志相关字段
         cls.logger = Log()
         cls.reporter = Export()
@@ -38,7 +40,7 @@ class TestCameraLog(unittest.TestCase):
     需要定义指标列的参照
     """
 
-    def test_reqidong(self):
+    def _test_reqidong(self):
         """筛选log的开始和结束关键词"""
         log_file = "reqidong.log"  # 日志文件名
         report_name = "reqidong"  # 报表sheet的名称
@@ -55,7 +57,7 @@ class TestCameraLog(unittest.TestCase):
     需要定义指标列的参照
     """
 
-    def _test_zhengchangpaizhao(self):
+    def test_zhengchangpaizhao(self):
         """筛选log的开始和结束关键词"""
         log_file = "zhengchangpaizhao.log"  # 日志文件名
         report_name = "zhengchangpaizhao"  # 报表sheet的名称
@@ -112,10 +114,11 @@ class TestCameraLog(unittest.TestCase):
             nsum += num[i]
         return nsum / len(num)
 
-    """读取日志中的数据源并处理平均时间"""
+    """读取日志中的数据源"""
 
-    def run_log(self, log_file, report_name, star_act, end_act1, end_act2, rp_title):
-        columns = ["ids", "date", "time", "id1", "id2", "type", "act0", "act1", "act2", "act3", "other1", "other2"]
+    def read_log(self, log_file):
+        columns = ["id1", "date", "time", "id2", "id3", "type", "act0", "act1", "act2", "act3", "other1", "other2",
+                   "other3"]
         use_columns = ["date", "time", "type", "act0", "act1", "act2", "act3"]
         logfile = os.path.join(self.logdir, log_file)
         # 将统计的字段读入到dataframe中
@@ -135,14 +138,32 @@ class TestCameraLog(unittest.TestCase):
                 print "Iteration is stopped."
 
         df = pd.concat(chunks)
-        # print df
-        target1 = df.loc[
-            (df['act0'] == star_act[0]) & (df['act1'] == star_act[1]) & (df['act2'] == star_act[2])]
+        if self.data_list.empty is True:
+            self.data_list = df
+        return df
+
+    """处理平均时间"""
+
+    def run_log(self, log_file, report_name, star_act, end_act1, end_act2, rp_title):
+        df = self.read_log(log_file) if self.data_list.empty is True else self.data_list
+
+        target1 = df.loc[(df['act0'] == star_act[0]) & (df['act1'] == star_act[1]) & (df['act2'] == star_act[2])]
         target2 = df.loc[(df['act0'] == end_act1[0]) & (df['act2'] == end_act1[1]) & (df['act3'] == end_act1[2])]
         target3 = df.loc[(df['act0'] == end_act2[0]) & (df['act2'] == end_act2[1]) & (df['act3'] == end_act2[2])]
         # print target1
         # print target2
         # print target3
+        # exit(0)
+
+        # target1.pop(1)
+        # target1.pop(2)
+        # target1.pop(3)
+        # target2.pop(1)
+        # target2.pop(2)
+        # target2.pop(3)
+        # target3.pop(1)
+        # target3.pop(2)
+        # target3.pop(3)
 
         time_used_list = []
         df = pd.DataFrame(columns=rp_title)
